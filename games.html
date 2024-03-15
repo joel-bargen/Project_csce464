@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Joel Bargen's Website</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <header class="head_container">
+        <div id="head-name" class="head_item">
+            Joel Bargen
+        </div>
+
+        <nav class="flex_container head_item">
+            <div class="flex_item nav_item">
+                <a href="./index.html">About</a>
+            </div>
+            <div class="flex_item nav_item">
+                <a href="./resume.html">Resume</a>
+            </div>
+            <div class="flex_item nav_item">
+                <a href="./projectInfo.html">Projects</a>
+            </div>
+            <div class="flex_item nav_item current">
+                <a href="./games.html">Games</a>
+            </div>
+            <div class="flex_item nav_item">
+                <a href="./contactMe.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <article  id="guessGame">
+            <h1>Number Guessing Game</h1>
+            <p>This is a game where you guess a number between 1-100 and look to guess the correct random number in 10 tries. Every guess you will be told whether you
+                are too high, too low, correct, or are out of guesses.
+            </p>
+            <p class="playnow"><a href="./guessNum.html">PLAY NOW</a></p>
+            <img id="numGame_pic" src="./resources/numGuessGame-pic.png">
+        </article>
+
+        <hr>
+
+        <article id="moleGame">
+            <h1>Whac-A-Mole</h1>
+            <p>This is the classic game of whac-a-mole! The goal is to hit the grid square that the mole is in as many times as possible until time runs out.
+            </p>
+            <p class="playnow"><a href="./whacAmole.html">PLAY NOW</a></p>
+            <img id="moleGame_pic" src="./resources/moleGame-pic.png">
+        </article>
+    </section>
+
+    <footer>
+        <p>Thanks for viewing my website! For any questions or comments head to the <a href="./contactMe.html">Contact</a> page.</p>
+    </footer>
+  </body>
+</html>

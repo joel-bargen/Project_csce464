@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Joel Bargen's Website</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./resources/scripts/feedbackProcess.js"></script>
+    </head>
+    <body>
+        <header class="head_container">
+            <div id="head-name" class="head_item">
+                Joel Bargen
+            </div>
+
+            <nav class="flex_container head_item">
+                <div class="flex_item nav_item">
+                    <a href="./index.html">About</a>
+                </div>
+                <div class="flex_item nav_item">
+                    <a href="./resume.html">Resume</a>
+                </div>
+                <div class="flex_item nav_item">
+                    <a href="./projectInfo.html">Projects</a>
+                </div>
+                <div class="flex_item nav_item">
+                    <a href="./games.html">Games</a>
+                </div>
+                <div class="flex_item nav_item current">
+                    <a href="./contactMe.html">Contact</a>
+                </div>
+            </nav>
+        </header>
+
+        <section>
+            <article>
+                <p>I hope that I have provided you with everything you needed, but if not feel free to reach out to me. My first method of contact would prefer to be
+                    through email, but I have also listed my phone number below as well. If you are reaching out to comment on the website, fill out the questionnaire
+                    and submit your feedback there and I will get back to you, thanks!
+                </p>
+                <div id="contact-methods">
+                    <ul>
+                        <li>Email: <a href="mailto:jbargen3@huskers.unl.edu?subject=Mail from personal Website">jbargen3@huskers.unl.edu</a></li>
+                        <li>Phone: (402)-123-4567</li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+
+        <section>
+            <form id="feedback" onsubmit="displayInfo()">
+                <fieldset class="section">
+                    <legend>Contact Info</legend>
+                    <table>
+                        <tr>
+                            <td><label for="name">Name: </label></td>
+                            <td><input id="name" type="text" name="fullName" value="John Smith" style="width:200px; margin-right: 60px;"></td>
+
+                            <td><label for="email">Email: </label></td>
+                            <td><input id="email" type="text" name="email" value="example@email.com" style="width:200px;"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <br>
+
+                <fieldset class="section">
+                    <legend>Questionnaire</legend>
+                    <div class="flex_containerQuestion">
+                        <div class="flex_question">
+                            <p class="question">How would you rate my website? (Required)</p>
+                            <table id="ratings" class="questionnaire">
+                                <tr>
+                                    <td><input id="r1" type="radio" name="rating" value="1 star"> 1 star (worst)</td>
+                                    <td><input id="r2" type="radio" name="rating" value="2 stars"> 2 stars</td>
+                                    <td><input id="r3" type="radio" name="rating" value="3 stars"> 3 stars</td>
+                                    <td><input id="r4" type="radio" name="rating" value="4 stars"> 4 stars</td>
+                                    <td><input id="r5" type="radio" name="rating" value="5 stars"> 5 stars (best)</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <br>
+
+                        <div class="flex_question">
+                            <p class="question">What other feedback do you have?</p>
+                            <textarea id="feedbackOpen" name="message" rows="8" cols="150">No other feedback.</textarea>
+                        </div>
+                    </div>
+                </fieldset>
+                <br>
+
+                <fieldset class="section">
+                    <legend>Submit Page</legend>
+                    <input type="submit" value="Submit" style="height:40px; width:120px">
+                    <input type="reset" style="height:40px; width:120px">
+                </fieldset>
+            </form>
+        </section>
+
+        <footer>
+            <p>Thanks for viewing my website!</p>
+        </footer>
+    </body>
+</html>

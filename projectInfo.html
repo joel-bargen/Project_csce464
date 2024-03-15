@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Joel Bargen's Website</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./resources/scripts/rotate.js"></script>
+    </head>
+    <body>
+        <header class="head_container">
+            <div id="head-name" class="head_item">
+                Joel Bargen
+            </div>
+
+            <nav class="flex_container head_item">
+                <div class="flex_item nav_item">
+                    <a href="./index.html">About</a>
+                </div>
+                <div class="flex_item nav_item">
+                    <a href="./resume.html">Resume</a>
+                </div>
+                <div class="flex_item nav_item current">
+                    <a href="./projectInfo.html">Projects</a>
+                </div>
+                <div class="flex_item nav_item">
+                    <a href="./games.html">Games</a>
+                </div>
+                <div class="flex_item nav_item">
+                    <a href="./contactMe.html">Contact</a>
+                </div>
+            </nav>
+        </header>
+
+        <section>
+            <article>
+                <h1>Know Your Well - Senior Design</h1>
+                <p>Every student in the School of Computing is required to complete at least two semesters of a senior design project, and I am assigned to work
+                    on the Know Your Well project for the Nebraska Water Center. The goal is to create a way for high school students in the program to submit 
+                    information they collected about wells and various other factors that need to be considered. This is the second year of the project, so this 
+                    year's team took over a partially created application. This project is coded using HTML, CSS, and Javascript and the database is through Azure.
+                </p>
+                <p>Last year's team decided to create a PWA as the solution to the project parameters. This allowed for the application to used similarly through 
+                    browsers regardless of what device is used. Though we took over an existing application, the product had a ways to go when we took over. At 
+                    first, we mainly worked on debugging the current application as well as familiarizing ourselves with the code and project. After that, we began 
+                    to start implimenting additional features that were requested by the sponsors. Since taking over, we have fully integrated the PWA with Nebraska 
+                    Cloud which allows the students using the website to login using their own high school credentials. We are also currently working on adding offline 
+                    functionality, an option to upload photos, and exportation of the data into a CSV file.
+                </p>
+            </article>
+
+            <hr>
+
+            <article>
+                <h1>Portfolio Website - CSCE464</h1>
+                <p>This class is all about teaching how to create all the parts and functions that a website might have. Currently, I have built a portfolio type 
+                    website that displays information about me, my resume, various information about projects, and how to contact me. I have also started to include 
+                    a few simple games that I have made, like a number guessing game. The <a href="./index.html">website</a> you are viewing right now is the project I am speaking of.
+                </p>
+                <p>Currently, I have built this website using HTML, CSS, and Javascript. This is all that is needed to fulfill the requirements for the mid-semester 
+                    project submission, but the final submission will also include PHP and database interaction as well as some XML and React.
+                </p>
+            </article>
+
+            <hr>
+
+            <article>
+                <h1>Embedded Systems Robot - CSCE336</h1>
+                <p>The final project for my embedded systems class was a semester long project and used a LAFVIN robot. Essentially, throughout the semester we were 
+                    asked to assemble this robot piece by piece and enable it to have the functionality to move forward and around objects when they were detected. 
+                </p>
+                <p>Obviously, the first step was to assemble my robot physically. That meant taking the frame and adding the wheels, motors, various boards and other 
+                    equipment, and wire it all so that the board could send out signals to the various parts to function. Once everything was connected properly, the 
+                    next step was to create a program step by step so the robot, which I named Butter, could move through the obsticale course. The programming part 
+                    was more difficult than assembling the physcial build. Essentially, I had to program Butter to use its ultrasonic sensor to continuously scan for 
+                    obstacles and once it detected an obstacle in the immediate path, it had to adjust and go around the obstacle. Though this project was difficult, 
+                    I greatly enjoyed it. A photo and video from my project can be found below.
+                </p>
+
+                <table class="flex_container">
+                    <tr>
+                        <td><img id="robotPhoto" class="flex_item" src="./resources/robot_fully-wired.jpg" width="400"></td>
+                        <td>
+                            <video id="robotVideo" class="flex_item" width="300"  controls muted>
+                                <source src="./resources/robot-dance_check2.mp4" type="video/mp4">
+                            </video>
+                        </td>
+                    </tr>
+                </table>
+                
+            </article>
+
+            <hr>
+
+            <article>
+                <h1>Sales System - CSCE156</h1>
+                <p><strong>Project abstract: </strong>Modern Geek Games is in need of a technology overhaul. The company was recently purchased and the previous owner had 
+                    no concrete sales system. The goal is to make a complete sales system using Java that is database-backed. In order to handle the current needs 
+                    as well as bringing the previous information up to date the company will need to have file processing and reporting capabilities.
+                </p>
+                <p>For the project described above, we were required to complete it using Java with SQL functionality. It was also requried to include structures for 
+                    the different sales items as well as including file processing and reporting functions. There will be structures for items, people, and stores as 
+                    well as the sales data for each sale occurance. A function to process CSV files, parse them, and then output XML files for cross-system use was 
+                    included. 
+                </p>
+            </article>
+        </section>
+
+        <br>
+
+        <footer>
+            <p>Thanks for viewing my website! For any questions or comments head to the <a href="./contactMe.html">Contact</a> page.</p>
+        </footer>
+    </body>
+</html>
