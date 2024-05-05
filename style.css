@@ -34,6 +34,12 @@ footer {
     margin: 10px;
 }
 
+#foot-name {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
 .head_item {
     flex: 1;
     flex-wrap: wrap;
@@ -106,6 +112,13 @@ footer p {
     font-size: 18px;
     text-align: center;
     margin: 10px;
+}
+
+footer ul {
+    font-size: 18px;
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 15px;
 }
 
 hr {
@@ -201,6 +214,11 @@ textarea {
 .divider {
     width: 90%;
     margin: 0 auto;
+}
+
+#bigN {
+    display: block;
+    margin: auto;
 }
 
 #robotPhoto {
