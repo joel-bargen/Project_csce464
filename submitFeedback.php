@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 '$feedback')";
     if ($db->query($insert_query) === TRUE) {
         echo "Registration successful! <br>
-                Return to registration page <a href='feedback.html'>here</a>.";
+                Return to the home page <a href='index.html'>here</a>.";
     } else {
         echo "Error: " . $insert_query . "<br>" . $db->error;
     }
