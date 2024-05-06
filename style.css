@@ -367,7 +367,7 @@ textarea {
     width: 450px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
     .head_container {
         flex-direction: column;
     }
@@ -378,6 +378,14 @@ textarea {
 
     p {
         margin: 40px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+    
+    footer ul {
+        font-size: 15px;
     }
 
     hr {
@@ -395,24 +403,54 @@ textarea {
         padding-right: 5px;
     }
 
+    #bigN {
+        display: block;
+        margin: auto;
+        width: 800px;
+    }
+
     #head-name {
         font-size: 35px;
+    }
+
+    #foot-name {
+        font-size: 25px;
     }
 
     #headshot {
         width: 200px;
     }
 
+    #kyw {
+        width: 700px;
+    }
+    
+    #wellpage {
+        width: 420px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    #wellinfo {
+        width: 350px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    #websiteHome {
+        width: 500px;
+    }
+
     #robotPhoto {
         width: 300px;
-        margin: 5px auto;
+        margin: 10px auto;
         border: 3px solid black;
         border-radius: 10px;
     }
     
     #robotVideo {
         width: 225px;
-        margin: 5px auto;
+        margin: 10px auto;
         border: 3px solid black;
         border-radius: 10px;
     }
@@ -439,7 +477,7 @@ textarea {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .head_container {
         flex-direction: column;
     }
@@ -454,6 +492,14 @@ textarea {
 
     p {
         margin: 40px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+    
+    footer ul {
+        font-size: 12px;
     }
 
     hr {
@@ -471,8 +517,18 @@ textarea {
         padding-right: 5px;
     }
 
+    #bigN {
+        display: block;
+        margin: auto;
+        width: 400px;
+    }
+
     #head-name {
         font-size: 25px;
+    }
+
+    #foot-name {
+        display: none;
     }
 
     #resume-pic {
@@ -480,6 +536,22 @@ textarea {
     }
 
     #headshot {
+        display: none;
+    }
+
+    #kyw {
+        display: none;
+    }
+    
+    #wellpage {
+        display: none;
+    }
+    
+    #wellinfo {
+        display: none;
+    }
+    
+    #websiteHome {
         display: none;
     }
 
